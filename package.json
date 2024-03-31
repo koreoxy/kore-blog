@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "tinacms dev -c \"astro dev\"", 
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
@@ -17,6 +17,11 @@
     "@iconify-json/mdi": "^1.1.64",
     "astro": "^4.5.12",
     "astro-icon": "^1.1.0",
+    "tinacms": "^1.6.1",
     "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.43",
+    "@types/node": "^20.12.2"
   }
 }
